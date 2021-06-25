@@ -1,0 +1,353 @@
+.nav{
+    background-color:lightblue;
+    z-index: 9;
+    padding: 2px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    box-shadow: 0px 3px 65px 0px rgba(0, 0, 0,.20);
+    position: fixed;
+}
+.nav_top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.logo{
+    width: 60%;
+    float: left;
+}
+.logo img:hover
+{
+    transform:scale(1.40);
+}
+.logo img{
+    padding: 10px;
+    width: 8%;
+   }
+   .nav_side{
+    float: right;
+    width: 50%;
+    padding-top: 10px;
+    font-size: large;
+    margin-top: 20px;
+
+}
+.nav_side a{
+    text-decoration:none;
+    margin-right: 30px;
+    padding-top: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.nav_side a:hover{
+    text-decoration:underline;
+    text-decoration: none;
+    color:orangered;
+    transition: all 0.5s ease;
+}
+.home .home_img img{
+    margin-left:150px;
+    margin-top: 200px;
+    width: 30%;
+    height: auto;
+    border-radius: 20px;
+}
+.home_sec{
+    background: url(bg.jpg);
+    background-size: cover;
+    
+    /*background-image: linear-gradient(180deg,#f56342,#c45298,#add422);*/
+    padding-bottom: 200px;
+}
+.home_sec .h2tag h1{
+    font-size: xxx-large;
+    text-align: center;
+    padding-bottom: 100px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.home_sec .h2tag h3{
+    text-align: center;
+    padding-bottom: 70px;
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.home_sec .h2tag img{
+    align-items: center;
+    padding-bottom: 70px;
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 40%;
+}
+
+.course_sec{
+    background-color:#e36486;
+    padding-bottom: 400px;
+    padding-top: 100px;
+}
+.course_sec .list_div .label1{
+    color: black;
+    font-size: 30px;
+    text-align: left;
+    padding: 20px;
+    text-shadow: 1px 1px 3px black;
+
+}
+    
+.course_sec .list_div .list{
+    font-size: larger;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+.home_sec .home .btn a{
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    background-color:purple;
+    color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    transition: .5s;
+    padding: 20px;px;
+    position:absolute;
+    left: 53.5%;
+    top: 60%;
+    font-size: larger;
+}
+.home_sec .home .btn a:hover{
+    background-color: black;
+    color:violet;
+    border: none;
+    border-bottom: 4px solid violet;
+    transition: 0.5s;
+}
+.keyhighlights .key_content{
+    width: 40%;
+    float: left;
+
+}
+.keyhighlights h2{
+    color: black;
+    font-size: 30px;
+    text-align: left;
+    padding: 20px;
+    text-shadow: 1px 1px 3px black;
+}
+.keyhighlights .key_content li{
+    list-style: none;
+    border-left: 4px solid black ;
+    border-right: 4px solid black ;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    text-align: left;
+    font-family: sans-serif;
+    box-shadow: 0px 2px 15px 0px black;
+    font-size: larger;
+}
+.keyhighlights .key_img img{
+    width: 40%;
+    margin-left: 150px;
+    float: right;
+}
+.about_sec{
+    background-color:#9e74d4;
+    padding-bottom: 300px;
+    padding-top: 100px;
+    
+
+}
+.about_sec{
+    background: url(blurred-bg.jpg);
+    background-size: cover;
+}
+.about_sec .about_content .list-group {
+    
+    width: 40%;
+    list-style: none;
+    line-height: 40px;
+    font-size: large; 
+    margin-left: 50px;
+    font-family:serif;
+    font-weight: 500;
+        
+}
+.about_sec .about_content h2{
+    margin-left: 40px;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    padding: 20px;
+    text-shadow: 1px 7px 3px black;
+    
+
+}
+.about_sec .about_content p{
+    color: white;
+}
+.about_sec .about_content .btn_abt a{
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    background-color:purple;
+    color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    transition: .5s;
+    padding: 10px;
+    position:absolute;
+    left: 5%;
+    top: 290%;
+    font-size: larger;
+}
+.about_sec .about_content .btn_abt a:hover{
+    background-color: black;
+    color:violet;
+    border: none;
+    border-bottom: 4px solid violet;
+    transition: 0.5s;
+}
+
+
+.about_sec .about_img img{
+    width: 30%;
+    margin-right: 150px;
+    float: right;
+    margin-bottom: 400px;
+    position: absolute;
+    top: 255%;
+    left: 60%;
+}
+.contact_sec{
+
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(bg.jpg);
+    background-size: cover;
+
+}
+.contact_sec .contact_content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact_sec .contact_content h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+}
+.contact_sec .contact_content p{
+    
+    font-weight: bold;
+    color: black;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.container .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactinfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+
+}
+.container .contactinfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container .contactinfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: black;
+    flex-direction: column;
+    font-weight:bold;
+
+}
+.container .contactinfo .box .text h3{
+    font-weight: 500;
+    color: black;
+
+}
+.contactform{
+    width: 40%;
+    padding: 40px;
+    background: white;
+}
+.contactform h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactform .inputbox input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    resize: none;
+}
+.contactform .inputbox span{
+    position:absolute;
+    left:0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events:none;
+    transition: 0.5s;
+    color: #666;
+
+}
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span
+
+.contactform .inputbox 
+{
+    width: 100px;
+    
+    color: black;
+    border:none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
